@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Advent of Code 2025 - Day 2: Secret Entrance (Part Two)
+Advent of Code 2025 - Day 1: Secret Entrance (Part Two)
 Counts how many times the dial points at 0 during and after rotations.
 """
 
@@ -141,7 +141,7 @@ if __name__ == "__main__":
         print("\n" + "=" * 60)
         print("Running on actual input...")
         print("=" * 60)
-        answer = solve_safe_combination_part2('day02/01_input.txt')
+        answer = solve_safe_combination_part2('day01/01_input.txt')
         print(f"\nThe password (using method 0x434C49434B): {answer}")
     else:
         print("\nExample test failed! Check the logic before running on actual input.")
